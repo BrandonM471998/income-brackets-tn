@@ -29,49 +29,29 @@ Data Sources: <br/>[Tennessee Population Data](https://www.census.gov/data/table
 
 ![Filter](./assets/filter.jpg)
 
-5. 
+5. In pandas there is an option to transpose your dataframe so that the columns become rows and the rows become columns. For this dataset it seemed appropriate. Checking the shape, info, and head of the dataframe along the way.
+
+![Transpose](./assets/transpose.jpg)
+
+6. Next I needed to make the county column my index column and create a county income dataframe only for households. After creating the dataframe I cleaned up the county column so that it matched the other dataframes.
+
+![County Households](./assets/county_households.jpg)
+
+7. The next step was working on the county geo dataframe. I checked the head of the dataframe and the info. Afterwards I renamed some of the columns and removed columns I wasn't going to need for the project.
+
+![County Geo](./assets/county_geo.jpg)
+
+8. Since some counties were not covered in the Tennessee income dataset, I needed to create a list of available counties and filter the other dataframes through it using query in pandas.
+
+![County List](./assets/county_list.jpg)
+
+9. Repeated step eight to clean up the other dataframes before finally combining all three datasets into a final dataframe.
 
 
 
-6. 
+10. Lastly I experimented with charts inside of python before exporting the geodataframe for visualization in Tableau.
 
-
-
-7. 
-
-
-
-8. 
-
-
-
-9. 
-
-
-
-10. 
-
-
-
-11. 
-
-
-
-12. 
-
-
-
-13. 
-
-
-
-14. 
-
-
-
-15. 
-
-
+![Final Chart](./assets/final_chart.jpg)
 
 # Presentation Walkthrough
 
