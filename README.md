@@ -1,7 +1,7 @@
 # income-brackets-tn
 
 # Introduction
-For this project I wanted to explore Tennessee population data and Tennessee income data to see what insights I could find.
+For this project, I wanted to explore Tennessee population data and Tennessee income data to see what insights I could find. Worth noting, the Tennessee Income Dataset only included some counties in Tennessee, so this project is primarily for practice and experimentation.
 
 Data Sources: <br/>[Tennessee Population Data](https://www.census.gov/data/tables/time-series/demo/popest/2010s-counties-total.html#par_textimage)<br/>
 [Tennessee Income Data](https://data.census.gov/cedsci/table?q=income&g=0400000US47,47.050000&y=2019&tid=ACSST1Y2019.S1901&hidePreview=true&moe=false)
@@ -21,11 +21,11 @@ Data Sources: <br/>[Tennessee Population Data](https://www.census.gov/data/table
 
 ![Data Shape](./assets/data_shape.jpg)
 
-3. For the third step, I saw that there were rows I didn't need along with text in the columns that was unecessary so I removed both rows and the text.
+3. For the third step, I saw that there were rows I didn't need along with text in the columns that was unnecessary so I removed both rows and the text.
 
 ![Row Drop](./assets/row_drop.jpg)
 
-4. The income dataset came with a full column with Tennessee income data, but for my use case I wanted the whole dataset to be county specific. I then filtered out the columns mentioned along with checking the county income filtered dataframe's info to see what datatypes the columns were.
+4. The income dataset came with a full column with Tennessee income data, but for my use case, I wanted the whole dataset to be county-specific. I then filtered out the columns mentioned along with checking the county income filtered dataframe's info to see what datatypes the columns were.
 
 ![Filter](./assets/filter.jpg)
 
@@ -37,11 +37,11 @@ Data Sources: <br/>[Tennessee Population Data](https://www.census.gov/data/table
 
 ![County Households](./assets/county_households.jpg)
 
-7. The next step was working on the county geo dataframe. I checked the head of the dataframe and the info. Afterwards I renamed some of the columns and removed columns I wasn't going to need for the project.
+7. The next step was working on the county geo dataframe. I checked the head of the dataframe and the info. Afterward, I renamed some of the columns and removed columns I wasn't going to need for the project.
 
 ![County Geo](./assets/county_geo.jpg)
 
-8. Since some counties were not covered in the Tennessee income dataset, I needed to create a list of available counties and filter the other dataframes through it using query in pandas.
+8. Since some counties were not covered in the Tennessee income dataset, I needed to create a list of available counties and filter the other dataframes through it using `query` in pandas.
 
 ![County List](./assets/county_list.jpg)
 
@@ -57,12 +57,10 @@ Data Sources: <br/>[Tennessee Population Data](https://www.census.gov/data/table
 
 ![Presentation](./assets/presentation.jpg)
 
-1. For the first chart in the top left, it shows the population for each county provided in the Tennessee Income dataset
+1. The first chart in the top left, it shows the population for each county provided in the Tennessee Income dataset.
 
-2. The top right chart is a bubble chart showing county population and household income reports filed. There are also two legends showing the population and measure values for the charts in the dashboard.
+2. The top right chart is a bubble chart showing county population and household income reports filed. There is also a legend showing the color flow for this chart.
 
-3. The bottom right chart shows the percentage of income
+3. The bottom right chart shows household income brackets by county as a percentage of 100.
 
-4. 
-
-5. 
+4. That is the presentation and full project, thank you for your time!
