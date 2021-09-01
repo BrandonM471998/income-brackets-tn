@@ -55,11 +55,13 @@ Data Sources: <br/>[Tennessee Population Data](https://www.census.gov/data/table
 
 # Presentation Walkthrough
 
-1. 
+![Presentation](./assets/presentation.jpg)
 
-2. 
+1. For the first chart in the top left, it shows the population for each county provided in the Tennessee Income dataset
 
-3. 
+2. The top right chart is a bubble chart showing county population and household income reports filed. There are also two legends showing the population and measure values for the charts in the dashboard.
+
+3. The bottom right chart shows the percentage of income
 
 4. 
 
