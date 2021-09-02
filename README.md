@@ -3,7 +3,7 @@
 # Introduction
 For this project, I wanted to explore Tennessee population data and Tennessee income data to see what insights I could find. Worth noting, the Tennessee Income Dataset only included some counties in Tennessee, so this project is primarily for practice and experimentation.
 
-Data Sources: <br/>[Tennessee Population Data](https://www.census.gov/data/tables/time-series/demo/popest/2010s-counties-total.html#par_textimage)<br/>
+Data Sources:<br/>County Shape File provided by NSS <br/>[Tennessee Population Data](https://www.census.gov/data/tables/time-series/demo/popest/2010s-counties-total.html#par_textimage)<br/>
 [Tennessee Income Data](https://data.census.gov/cedsci/table?q=income&g=0400000US47,47.050000&y=2019&tid=ACSST1Y2019.S1901&hidePreview=true&moe=false)
 
 # Table of Contents
